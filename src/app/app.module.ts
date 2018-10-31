@@ -11,7 +11,7 @@ import { NgProgressModule } from '@ngx-progressbar/core';
 import { AppComponent } from './app.component';
 
 const appRoutes: Routes = [
-  {path: '', redirectTo: '/users', pathMatch: 'full'}
+  {path: '*', redirectTo: '/users', pathMatch: 'full'}
 ];
 
 @NgModule({

@@ -36,7 +36,7 @@ this.httpOptions = {
       });
 
 
-5 - After that, run the command npm run dev and in another tab the server with php artisan. Already ready to realize the consumption of users.      
+5 - After that, run the command ng serve and in another tab the server with php artisan. Already ready to realize the consumption of users.      
     
 
 # Cliente Angular para consumo do Laravel restfull
@@ -69,4 +69,4 @@ this.httpOptions = {
       });
     }
 
- 5 - Após isso, rodar o comando npm run dev e em outra aba o servidor com php artisan. Já está pronto para realizar o consumo de usuários.   
+ 5 - Após isso, rodar o comando ng serve e em outra aba o servidor com php artisan. Já está pronto para realizar o consumo de usuários.   
