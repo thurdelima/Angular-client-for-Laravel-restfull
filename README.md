@@ -16,7 +16,7 @@ Eg: Project folder -> inside it has client and server.
 
 2 - Enter the client directory
 
-3 - Run the command npm install
+3 - Run the command npm install (if dont have angular-cli, npm install -g @angular/cli)
 
 4 - In the src / app / folder we have the app-http.service.ts file. It is responsible for communicating with the server. In it we have a line of code that we will make a change.
 
@@ -49,7 +49,7 @@ Ex.: Pasta projeto -> dentro dela tem client e servidor.
 
 2 - Entrar no diretório client
 
-3 - Rodar o comando npm install
+3 - Rodar o comando npm install (caso não tenha o angular-cli, npm install -g @angular/cli)
 
 4 - Na pasta src/app/ temos o arquivo app-http.service.ts. Ele é responsável pela comunicação com o servidor. Nele temos uma linha de código que realizaremos uma alteração. 
 
