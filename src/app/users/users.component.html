@@ -1,0 +1,41 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Usuários</h5>
+  </div>
+  <table class="table table-hover table-bordered">
+    <caption>Lista de usuários</caption>
+    <thead class="thead-dark">
+      <tr>
+          <th>#</th>
+          <th>nome</th>
+          <th>email</th>
+          <th></th>
+      </tr>
+    
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users"> 
+          <td>{{user.id}}</td>
+          <td>{{user.name}}</td>
+          <td>{{user.email}}</td>
+          <td class="text-right">
+            <p>
+                <a  [routerLink]="['/users/' + user.id]">Ver</a>
+            </p>
+          </td>
+      </tr>
+    
+    
+    </tbody>
+  </table>
+
+  <p>
+    <a [routerLink]="['/users/create']" class="btn btn-primary">Novo</a>
+  </p>
+  
+
+
+</div>
+
+<ng-progress ></ng-progress>
+

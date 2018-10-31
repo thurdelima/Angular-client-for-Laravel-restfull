@@ -1,0 +1,35 @@
+<div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Editando {{user.name}} </h5>
+      
+      <form (submit)="update()" >
+          <div class="form-group">
+            <label for="users-name">Nome</label>
+            <input name="name" type="text" class="form-control" [(ngModel)]="user.name" id="user-name" placeholder="Seu nome"> 
+  
+          </div>
+  
+          <div class="form-group">
+              <label for="users-email">Email</label>
+              <input name="email" type="text" class="form-control" [(ngModel)]="user.email" id="user-email" placeholder="Seu email"> 
+    
+          </div>
+  
+            <div class="form-group">
+                <label for="users-password">Senha</label>
+                <input name="password" type="text" class="form-control" [(ngModel)]="user.password" id="user-password" placeholder="Sua senha"> 
+      
+            </div>
+            <input type="submit" value="Salvar"  class="btn btn-primary">
+        </form>
+  
+      <hr>
+  
+      <div class="btn-group">
+      
+       <p class="il"><a [routerLink]="['/users/' + user.id]" class="btn btn-secondary">voltar</a></p>
+      </div>
+  
+    </div>
+  </div>
+  <ng-progress></ng-progress>
